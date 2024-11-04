@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Termékek kezelése</title>
+  <script type="module" src="/src/main.ts"></script>
+</head>
+<body>
+  <h1>Termékek</h1>
+  <table id="productTable" class="table table-stripd table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Értékelés</th>
+        <th>Státusz</th>
+        <th>Törlés</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <h2>Új termék hozzáadása</h2>
+  <input id="ratingInput" type="number" placeholder="Értékelés (1-5)" />
+  <input id="statusInput" type="text" placeholder="Státusz" />
+  <button id="addProductButton">Hozzáadás</button>
+</body>
+</html>
